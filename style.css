@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+}
+
+.box {
+    height: 7rem;
+    width: 7rem;
+    border: 0.35rem solid black;
+    border-radius: 1rem;
+    margin: 0.5rem !important;
+}
+
+.container {
+    width: 40%;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box1 {
+    background-color: #8a2be2;
+}
+
+.box2 {
+    background-color: #26d589;
+}
+
+.box3 {
+    background-color: #e2862b;
+}
+
+.box4 {
+    background-color: #35a9c9;
+}
+
+.flash {
+    background-color: #ffffff;
+}
+
+.userFlash {
+    background-color: #00ff00;
+}
+
+@media (max-width : 500px) {
+    .box {
+        height: 4rem;
+        width: 4rem;
+    }
+}
