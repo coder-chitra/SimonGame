@@ -53,7 +53,7 @@ function checkSeq(index) {
         if (hightScore < level) {
             hightScore = level;
         }
-        h3.innerText = `Game Over ! Your Score : ${level} | Hight Score : ${hightScore}
+        h3.innerText = `Game Over ! Your Score : ${level} | Highest Score : ${hightScore}
         now press any key to start game again`;
         gameStarted = false;
         level = 0;
